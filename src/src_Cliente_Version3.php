@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/src_db_Version3.php';
 
 class Cliente {
     public static function listar($pdo) {

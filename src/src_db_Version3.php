@@ -6,7 +6,7 @@
 $host = 'localhost';
 $db   = 'backend_junior';
 $user = 'root';
-$pass = 'senha';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

@@ -10,7 +10,7 @@ if (isset($_POST['adicionar'])) {
     if ($nome && $email) {
         Cliente::adicionar($pdo, $nome, $email);
         $mensagem = "Cliente adicionado!";
-        header("Location: index.php");
+        header("Location: public_index_Version3.php");
         exit();
     }
 }
@@ -23,7 +23,7 @@ if (isset($_POST['editar'])) {
     if ($id && $nome && $email) {
         Cliente::editar($pdo, $id, $nome, $email);
         $mensagem = "Cliente editado!";
-        header("Location: index.php");
+    header("Location: public_index_Version3.php");
         exit();
     }
 }
@@ -33,7 +33,7 @@ if (isset($_GET['excluir'])) {
     $id = $_GET['excluir'];
     Cliente::excluir($pdo, $id);
     $mensagem = "Cliente excluído!";
-    header("Location: index.php");
+    header("Location: public_index_Version3.php");
     exit();
 }
 
