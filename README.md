@@ -93,6 +93,7 @@ CRUD completo usando PHP puro e MySQL.
    ```bash
    php -S localhost:8000 -t public
    ```
+- Recomenda-se inicializar um servidor MySQL utilizando o XAMPP.
 ---
 
 ## Como rodar os testes
