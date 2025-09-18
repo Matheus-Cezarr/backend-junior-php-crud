@@ -88,6 +88,11 @@ CRUD completo usando PHP puro e MySQL.
 - Uso de PDO e prepared statements.
 - Código organizado por responsabilidade.
 
+- Iniciar o servidor PHP do mini projeto
+
+   ```bash
+   php -S localhost:8000 -t public
+   ```
 ---
 
 ## Como rodar os testes
