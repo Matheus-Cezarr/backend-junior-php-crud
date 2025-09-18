@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../src/validarDocumento.php';
+require_once __DIR__ . '/../src/src_validarDocumento_Version3.php';
 
 function testValidarDocumento() {
     assert(validarDocumento("ABC123") === true);
