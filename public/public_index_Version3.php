@@ -1,5 +1,6 @@
 <?php
-require_once '../src/Cliente.php';
+require_once __DIR__ . '/../src/src_db_Version3.php';
+require_once __DIR__ . '/../src/src_Cliente_Version3.php';
 
 $mensagem = '';
 // Adicionar cliente
